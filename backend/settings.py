@@ -44,8 +44,8 @@ class _UiSettings(BaseSettings):
     title: str = "Contoso"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
-    chat_title: str = "Start chatting"
-    chat_description: str = "This chatbot is configured to answer your questions"
+    chat_title: str = "RaBOTAssist - How can I help?"
+    chat_description: str = "With AI and Rabo Knowledge I can answer any IT questions"
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
 

@@ -41,7 +41,7 @@ class CosmosConversationClient():
         try:
             container_info = await self.container_client.read()
         except:
-            return False, f"CosmosDB container {self.container_name} not found"
+            return @alse, f"CosmosDB container {self.container_name} not found"
             
         return True, "CosmosDB client initialized successfully"
 
